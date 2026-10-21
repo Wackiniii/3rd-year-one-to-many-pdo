@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<h1>Are you sure you want to delete this user?</h1>
+	<h1>Are you sure you want to delete this album?</h1>
 	<?php $getAlbumByID = getAlbumByID($pdo, $_GET['album_id']); ?>
 	<div class="container" style="border-style: solid; height: 400px;">
 		<h2>Album Name: <?php echo $getAlbumByID['album_name']; ?></h2>
